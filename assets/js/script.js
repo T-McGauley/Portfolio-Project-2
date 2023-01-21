@@ -74,3 +74,41 @@ function startGame() {
     element.classList.remove('correct')
     element.classList.remove('wrong')
   }
+  const questions = [
+    {
+      question: 'How many engines are on an X-wing fighter?',
+      answers: [
+        { text: '4', correct: true },
+        { text: '8', correct: false },
+        { text: '1', correct: false},
+        { text: '6', correct: false},
+      ]
+    },
+    {
+      question: 'What famous scientist was the inspiration for creature designer Stuart Freeborn when creating Yoda’s eyes?',
+      answers: [
+        { text: 'Michael D. Higgins', correct: false },
+        { text: 'Danny DeVito', correct: false },
+        { text: 'Albert Einstein', correct: true },
+        { text: 'Jeff Goldblum', correct: false }
+      ]
+    },
+    {
+      question: 'Which star of Revenge of the Sith is the real-life nephew of Denis Lawson, who played Wedge in the first Star Wars Trilogy?',
+      answers: [
+        { text: 'Hayden Christensen', correct: false },
+        { text: 'Ewan McGregor', correct: true },
+        { text: 'Samuel L. Jackson', correct: false },
+        { text: 'Temuera Morrison', correct: false }
+      ]
+    },
+    {
+      question: 'What do Han and Luke ride in the Snow on Hoth?', 
+      answers: [
+        { text: 'E-Scooters', correct: false },
+        { text: 'Tauntaum', correct: true },
+        { text: 'Bantha', correct: false },
+        { text: 'Varactyl', correct: false },
+      ]
+    }
+  ]
