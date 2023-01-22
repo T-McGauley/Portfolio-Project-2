@@ -30,7 +30,7 @@ body.wrong {
 .container {
     width: 800px;
     max-width: 80%;
-    background-color: white;
+    background-color: rgb(99, 92, 92);
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
@@ -49,25 +49,26 @@ body.wrong {
     background-color: hsl(var(--hue), 100%, 50%);
     border-radius: 5px;
     padding: 5px 10px;
-    color: rgb(18, 142, 101);
+    color: rgb(255, 255, 255);
     outline: none;
     }
     
     .btn:hover {
-    border-color: black;
+    border-color: rgb(45, 135, 225);
     }
     
     .btn.correct {
     --hue: var(--hue-correct);
-    color: black;
+    color: rgb(0, 255, 64);
     }
     
     .btn.wrong {
     --hue: var(--hue-wrong);
-    }
+    color: rgb(205, 12, 12);    
+}
     
     .start-btn, .next-btn {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     padding: 10px 20px;
     }
