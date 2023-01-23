@@ -85,7 +85,7 @@ function startGame() {
       ]
     },
     {
-      question: 'What famous scientist was the inspiration for creature designer Stuart Freeborn when creating Yoda’s eyes?',
+      question: 'What famous figure was the inspiration for creature designer Stuart Freeborn when creating Yoda’s eyes?',
       answers: [
         { text: 'Michael D. Higgins', correct: false },
         { text: 'Danny DeVito', correct: false },

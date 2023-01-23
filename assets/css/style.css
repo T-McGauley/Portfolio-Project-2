@@ -17,10 +17,9 @@ background-color: hsl(var(--hue), 100%, 20%);
 }
 
 #question {
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family:unbounded;
 color: black;
-position:sticky;
-
+float: inherit;
 }
 
 body.correct {
@@ -36,7 +35,7 @@ body.wrong {
     background-color: rgb(196, 186, 186);
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 0 0 10px 2px;
+    
     }
     
     .btn-grid {
@@ -48,7 +47,7 @@ body.wrong {
     
     .btn {
     --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border: 1px solid hsl(var(--hue), 10%, 300%);
     background-color: hsl(var(--hue), 100%, 50%);
     border-radius: 5px;
     padding: 5px 10px;
@@ -63,6 +62,7 @@ body.wrong {
     .btn.correct {
     --hue: var(--hue-correct);
     color: rgb(0, 0, 0);
+
     }
     
     .btn.wrong {
@@ -71,6 +71,7 @@ body.wrong {
 }
     
     .start-btn, .next-btn {
+    font-family: unbounded;
     font-size: 1.8rem;
     font-weight: bold;
     padding: 10px 20px;
