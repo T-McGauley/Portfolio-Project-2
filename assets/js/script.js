@@ -8,7 +8,7 @@ let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
-  currentQuestionIndex++
+  currentQuestionIndex++;
   setNextQuestion()
 })
 function startGame() {

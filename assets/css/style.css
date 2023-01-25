@@ -1,26 +1,20 @@
-:root {
---hue-neutral: 200;
---hue-wrong: 0;
---hue-correct: 145;
-}
-
 body {
-
 padding: 0;
 margin: 0;
 display: flex;
-
+flex-direction: column;
 height: 100vh;
 justify-content: center;
 align-items: center;
-background-color: hsl(var(--hue), 100%, 20%);
+background-color: navy;
 }
 
 h1 {
 font-family: 'unbounded';
-font-size: 35px;
+font-size: 50px;
 letter-spacing: 3px;
 color: gold;
+padding bottom: 50px;
 }
 
 #title {
