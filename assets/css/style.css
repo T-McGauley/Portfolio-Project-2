@@ -16,16 +16,26 @@ align-items: center;
 background-color: hsl(var(--hue), 100%, 20%);
 }
 
+h1 {
+font-family: 'unbounded';
+font-size: 35px;
+letter-spacing: 3px;
+color: gold;
+}
 
+#title-container {
+background-image: assets/image(assets/images/space-background.jpg);    
+
+}
 #title {
 height: 3vh;
 margin: 4% 3% 1%;
-text-align: center;
-float:right;
+position: static;
+
 }
 
 #question {
-font-family:unbounded;
+font-family:'unbounded';
 color: black;
 float: inherit;
 }

@@ -56,7 +56,8 @@ function startGame() {
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
       nextButton.classList.remove('hide')
     } else {
-      startButton.innerText = 'Restart'
+      startButton.innerText = 'Play Again?'
+      counter.innerHTML = "1";
       startButton.classList.remove('hide')
     }
   }
