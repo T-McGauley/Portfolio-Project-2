@@ -16,6 +16,14 @@ align-items: center;
 background-color: hsl(var(--hue), 100%, 20%);
 }
 
+
+#title {
+height: 3vh;
+margin: 4% 3% 1%;
+text-align: center;
+float:right;
+}
+
 #question {
 font-family:unbounded;
 color: black;
