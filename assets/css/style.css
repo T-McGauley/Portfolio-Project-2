@@ -24,7 +24,7 @@ color: gold;
 }
 
 #title-container {
-background-image: assets/image(assets/images/space-background.jpg);    
+   
 
 }
 #title {
@@ -40,13 +40,6 @@ color: black;
 float: inherit;
 }
 
-body.correct {
---hue: var(--hue-correct);
-}
-
-body.wrong {
---hue: var(--hue-wrong);
-}
 .container {
     width: 800px;
     max-width: 80%;
@@ -64,9 +57,7 @@ body.wrong {
     }
     
     .btn {
-    --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 10%, 300%);
-    background-color: hsl(var(--hue), 100%, 50%);
+    background-color:blue;
     border-radius: 5px;
     padding: 5px 10px;
     color: rgb(255, 255, 255);
@@ -78,13 +69,13 @@ body.wrong {
     }
     
     .btn.correct {
-    --hue: var(--hue-correct);
+    background-color: green;
     color: rgb(0, 0, 0);
 
     }
     
     .btn.wrong {
-    --hue: var(--hue-wrong);
+    background-color: red;
     color: rgb(255, 255, 255);    
 }
     
@@ -104,4 +95,5 @@ body.wrong {
     .hide {
     display: none;
     }
+    
     
