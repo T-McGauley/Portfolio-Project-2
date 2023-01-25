@@ -5,11 +5,11 @@
 }
 
 body {
---hue: var(--hue-neutral);
+
 padding: 0;
 margin: 0;
 display: flex;
-width: 100vw;
+
 height: 100vh;
 justify-content: center;
 align-items: center;
@@ -23,15 +23,10 @@ letter-spacing: 3px;
 color: gold;
 }
 
-#title-container {
-   
-
-}
 #title {
-height: 3vh;
-margin: 4% 3% 1%;
-position: static;
-
+    height: 3vh;
+    margin: 4% 3% 1%;
+    
 }
 
 #question {
@@ -42,8 +37,8 @@ float: inherit;
 
 .container {
     width: 800px;
-    max-width: 80%;
-    background-color: rgb(196, 186, 186);
+    max-width: 80%vp;
+    background-color:rgb(165, 231, 255);
     border-radius: 5px;
     padding: 10px;
     
@@ -57,7 +52,7 @@ float: inherit;
     }
     
     .btn {
-    background-color:blue;
+    background-color:rgb(97, 97, 97);
     border-radius: 5px;
     padding: 5px 10px;
     color: rgb(255, 255, 255);
