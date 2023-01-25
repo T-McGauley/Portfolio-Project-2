@@ -58,6 +58,7 @@ function startGame() {
     } else {
       startButton.innerText = 'Play Again?'
       startButton.classList.remove('hide')
+      alert("you have finished the quiz! Good work!");
     }
   }
   
