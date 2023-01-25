@@ -31,16 +31,17 @@ color: gold;
 
 #question {
 font-family:'unbounded';
-color: black;
+color: gold;
 float: inherit;
 }
 
 .container {
     width: 800px;
     max-width: 80%vp;
-    background-color:rgb(165, 231, 255);
+    background-color:rgb(19, 54, 167);
     border-radius: 5px;
     padding: 10px;
+    height: 45%vp
     
     }
     
@@ -60,7 +61,7 @@ float: inherit;
     }
     
     .btn:hover {
-    border-color: rgb(45, 135, 225);
+    border-color: gold;
     }
     
     .btn.correct {
