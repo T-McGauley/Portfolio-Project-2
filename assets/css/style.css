@@ -14,14 +14,10 @@ font-family: 'unbounded';
 font-size: 50px;
 letter-spacing: 3px;
 color: gold;
-padding bottom: 50px;
+
 }
 
-#title {
-    height: 3vh;
-    margin: 4% 3% 1%;
-    
-}
+
 
 #question {
 font-family:'unbounded';
@@ -31,11 +27,11 @@ float: inherit;
 
 .container {
     width: 800px;
-    max-width: 80%vp;
+    max-width: 80%;
     background-color:rgb(19, 54, 167);
     border-radius: 5px;
     padding: 10px;
-    height: 45%vp
+    height: 225px
     
     }
     
