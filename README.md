@@ -1,15 +1,17 @@
+<img src="assets/images/responsive.JPG">
+
 ## Quiz Purpose
 
 Starwars Trivia provides the user a quiz with various questions relating to the topic of starwars. The quiz provides a user friendly experience that can be played quickly, and a number of times if the user wishes. 
 The quiz is designed to operate on any device available.
 
-The purpose of the quiz is to present the user with 4 questions relating to the starwars cinematic universe
+The purpose of the quiz is to present the user with 4 questions relating to the starwars cinematic universe.
 
 The quiz has been designed for the second project in the Code Institutes Diploma in Full Stack Software Development.
 
 Languages used - HTML5, CSS3 and Javascript.
 
-Link to live website as follows - 
+Link to live website - https://t-mcgauley.github.io/Portfolio-Project-2/
 
 ## User Stories
 New User
@@ -17,7 +19,7 @@ I want to learn something new
 I want a quick and easy method of learning fun facts
 Im a fan of the topic and I want to see if the quiz is interesting or if the info is even correct
 
-Returning User
+## Returning User
 I want to test my memory on the topic
 I am showing the quiz to a friend to compare results
 I am a friend of the author and I need to test it
@@ -36,6 +38,7 @@ Incorrect Answer
 
 Last Page
 
+
 # Start Quiz
 The initial page shows a start button, prompting the user to begin the game and discover the first question that is randomly sequenced. 
 <img src="assets/images/start-page.JPG">
@@ -47,9 +50,11 @@ The original idea was to have the background also change color but I found this 
 <img src="assets/images/question-page.JPG">
 
 # Correct Answer
+When the user selects a correct answer, the button will change to green, indicating that it was the correct selection.
 <img src="assets/images/correct-page.JPG">
 
 # Incorrect Answer
+If the user selects a wrong answer, the button will change to red, indicating that it was the wrong selection.
 <img src="assets/images/incorrect-page.JPG">
 
 # Restart Quiz
@@ -70,11 +75,13 @@ I tested buttons and functionality of the quiz by spamming them with inputs to t
 # Validation
 
 # JSHint
-warnings relating to use of let identified with JSHint 
+warnings relating to use of let identified with JSHint. 
+editing the code to give no warnings actually ended up making the js fail to work.
 <img src="assets/images/jshint.JPG">
 
 # W3C CSS
 No errors were returned when CSS was passed through the official W3C CSS Validator 
+
 <img src="assets/images/css-validator.JPG">
 
 # W3C HTML
@@ -97,7 +104,7 @@ I went to the settings page of my projects repository, selected the pages tab, s
 https://github.com/T-McGauley
 
 # Credits and Acknowledgements
-Used Web Dev Simplified - Web Dev Simplified
+Followed Web Dev Simplified videos - Web Dev Simplified
 
 Used Brian Design code from tutorial in order to implement javascript functionality for this quiz  - Brian Designs
 
