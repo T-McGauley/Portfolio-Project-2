@@ -1,108 +1,106 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Quiz Purpose
 
-Welcome T-McGauley,
+Starwars Trivia provides the user a quiz with various questions relating to the topic of starwars. The quiz provides a user friendly experience that can be played quickly, and a number of times if the user wishes. 
+The quiz is designed to operate on any device available.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The purpose of the quiz is to present the user with 4 questions relating to the starwars cinematic universe
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The quiz has been designed for the second project in the Code Institutes Diploma in Full Stack Software Development.
 
-## Gitpod Reminders
+Languages used - HTML5, CSS3 and Javascript.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Link to live website as follows - 
 
-`python3 -m http.server`
+## User Stories
+New User
+I want to learn something new 
+I want a quick and easy method of learning fun facts
+Im a fan of the topic and I want to see if the quiz is interesting or if the info is even correct
 
-A blue button should appear to click: _Make Public_,
+Returning User
+I want to test my memory on the topic
+I am showing the quiz to a friend to compare results
+I am a friend of the author and I need to test it
 
-Another blue button should appear to click: _Open Browser_.
+## Goal
+The aim of the game is to get every answer correct and to remember the facts, just incase the user ends up at a quiz show or pub quiz!
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
+Start Page
 
-A blue button should appear to click: _Make Public_,
+Question
 
-Another blue button should appear to click: _Open Browser_.
+Correct Answer
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Incorrect Answer
 
-To log into the Heroku toolbelt CLI:
+Last Page
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Start Quiz
+The initial page shows a start button, prompting the user to begin the game and discover the first question that is randomly sequenced. 
+<img src="assets/images/start-page.JPG">
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Quiz Question
+Once the user has clicked to start the quiz they will be shown a question at random and will have four options to choose from.
+When the user makes a selection the buttons will change color signifying correct (green) and incorrect (red).
+The original idea was to have the background also change color but I found this to be distracting and instead changed the background to be an image relating to the subject.
+<img src="assets/images/question-page.JPG">
 
-------
+# Correct Answer
+<img src="assets/images/correct-page.JPG">
 
-## Release History
+# Incorrect Answer
+<img src="assets/images/incorrect-page.JPG">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Restart Quiz
+When the quiz is out of questions, the user will be shown the 'Play again?' button, this will reset the quiz
+<img src="assets/images/play-again-page.JPG">
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+# Typography
+Fonts used were imported from Google fonts -<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800&display=swap" rel="stylesheet">
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+font-family:Unbounded
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Testing
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+I tested the website on both Google chrome and Microsoft Edge.
+I sent the website link to friends to test on different devices.
+I tested buttons and functionality of the quiz by spamming them with inputs to try and provoke an issue.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+# Validation
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# JSHint
+warnings relating to use of let identified with JSHint 
+<img src="assets/images/jshint.JPG">
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# W3C CSS
+No errors were returned when CSS was passed through the official W3C CSS Validator 
+<img src="assets/images/css-validator.JPG">
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# W3C HTML
+No errors were returned when HTML was passed through the official W3C HTML Validator
+<img src="assets/images/html-validator.JPG">
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+# Bugs
+bug 1 - Heading was floating to the left of the game container on different screen sizes, this was fixed by using the flex-direction command
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+bug 2 - while styling the game area the "play again?" button would not show sometimes, this was fixed by changing the order of some of the css code
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Unfixed Bugs
+There is no unfixed bugs.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Deployment
+The site has been deployed using Github pages.
+I went to the settings page of my projects repository, selected the pages tab, selected the Main branch and selected the save button provided. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Authors
+https://github.com/T-McGauley
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Credits and Acknowledgements
+Used Web Dev Simplified - Web Dev Simplified
 
-------
+Used Brian Design code from tutorial in order to implement javascript functionality for this quiz  - Brian Designs
 
-## FAQ about the uptime script
+Used W3Schools multiple times for many issues big or small
 
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Referred to code institutes walkthrough projects
